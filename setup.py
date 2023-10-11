@@ -22,4 +22,6 @@ setuptools.setup(
     license="MIT",
     packages=["tuple_math"],
     install_requires=requirements,
+    package_data={"tuple_math": ["py.typed"]},
+    include_package_data=True,
 )
